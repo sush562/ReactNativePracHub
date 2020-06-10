@@ -6,7 +6,7 @@ const ComponentScreen = () => {
 	const testtext = <Text style = {styles.textstyle3}>Bye There</Text>
 
 	return <View>
-		<Text style = {styles.textstyle}>This is ComponentScreen</Text>
+		<Text style = {styles.textstyle}>This is Component Screen</Text>
 		<Text style = {styles.textstyle2}>{greeting}</Text>
 		{testtext}
 	</View>
