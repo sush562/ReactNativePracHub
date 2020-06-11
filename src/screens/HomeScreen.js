@@ -35,6 +35,21 @@ const HomeScreen = (props) => {
         onPress={() => props.navigation.navigate('Square')} 
       />
 
+      <Button 
+        title="Go to Reducer Square Page"
+        onPress={() => props.navigation.navigate('ReducerSquare')} 
+      />
+
+      <Button 
+        title="Go to Text Input Page"
+        onPress={() => props.navigation.navigate('TextScr')} 
+      />
+
+      <Button 
+        title="Go to Box Layout Page"
+        onPress={() => props.navigation.navigate('Box')} 
+      />
+
     </View>
   );
 };
